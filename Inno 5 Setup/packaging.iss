@@ -56,9 +56,9 @@ Name: "{userdesktop}\CQ Beta"; Filename: "{app}\CQ.exe"
 Name: "{group}\CQ Beta"; Filename: "{app}\CQ.exe"; Languages: en;
 Name: "{group}\CQ Uninstall"; Filename: "{app}\unins000.exe"; Languages: en;
 Name: "{group}\CQ Website"; Filename: "{app}\CQ.url"; Languages: en;
-Name: "{group}\CQ ∫£≈∏"; Filename: "{app}\CQ.exe"; Languages: kr;
-Name: "{group}\CQ ¿•ªÁ¿Ã∆Æ"; Filename: "{app}\CQ_kr.url"; Languages: kr;
-Name: "{group}\CQ ¡¶∞≈"; Filename: "{app}\unins000.exe"; Languages: kr;
+Name: "{group}\CQ Î≤†ÌÉÄ"; Filename: "{app}\CQ.exe"; Languages: kr;
+Name: "{group}\CQ ÏõπÏÇ¨Ïù¥Ìä∏"; Filename: "{app}\CQ_kr.url"; Languages: kr;
+Name: "{group}\CQ Ï†úÍ±∞"; Filename: "{app}\unins000.exe"; Languages: kr;
 
 [Registry]
 Root: HKLM; Subkey: "Software\ehei Games"; ValueType: string; ValueName: "InstallPath"; ValueData: "{app}"; Flags: uninsdeletevalue
@@ -71,7 +71,7 @@ Type: files; Name: "{app}\CQ.suo"
 [Run]
 ;Filename: "{app}\vcredist_x86.exe";
 Filename: "{app}\CQ.EXE"; Description: "Launch application"; Languages: en; Flags: postinstall nowait skipifsilent unchecked
-Filename: "{app}\CQ.EXE"; Description: "∞‘¿” Ω√¿€"; Languages: kr; Flags: postinstall nowait skipifsilent unchecked
+Filename: "{app}\CQ.EXE"; Description: "Í≤åÏûÑ ÏãúÏûë"; Languages: kr; Flags: postinstall nowait skipifsilent unchecked
 
 [Code]
 function InitializeSetup(): Boolean;
@@ -96,7 +96,7 @@ begin
       begin
       Result := True;
       end
-end;
+end;;
 
 procedure CheckInstallVC8DLL();
 var
