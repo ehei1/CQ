@@ -1,0 +1,180 @@
+# config using Ogre self parser
+# default setting for builder
+# wrote by Ungju
+
+[Container]
+mesh=knot
+material=defaultContainer
+position_x=0
+position_y=0
+position_z=0
+rotate_axis_x=0
+rotate_axis_y=0
+rotate_axis_z=0
+rotate_axis_angle=1
+scale_x=1
+scale_y=1
+scale_z=1
+
+[Egg]
+mesh=standardEgg.mesh
+#pos, rotate, scale apply at eggNode
+position_x=0
+position_y=0
+position_z=0
+rotate_axis_x=0
+rotate_axis_y=0
+rotate_axis_z=0
+rotate_angle=0
+scale_x=1
+scale_y=1
+scale_z=1
+# format: name=material, pos_x, pos_y, pos_z, radius, value
+egg0=defaultContainer, 0, 21.75, 20, 12.5, 1
+egg1=defaultContainer, 0, 26.75, -9.375, 12.5, 2
+egg10=defaultContainer, 0, -14.75, 23.25, 9, +
+egg11=defaultContainer, 0, -11.25, 29.5, 8.5, *
+egg12=defaultContainer, 0, 10.75, 28, 14.5, 0
+egg13=defaultContainer, 7, -7.25, 28.5, 18, 1
+egg14=defaultContainer, 0, -15.75, -13.75, 14.5, 2
+egg15=defaultContainer, 0, -19.125, 0.5, 13, 3
+egg16=defaultContainer, 0, 8, -12.375, 17, 4
+egg17=defaultContainer, 0, -13.375, -6.25, 15.5, 0
+egg18=defaultContainer, 0, 11.75, 17, 8.5, 6
+egg19=defaultContainer, 0, -18.625, -7.875, 10, 7
+egg2=defaultContainer, 0, 20.75, -14.125, 10.5, 3
+egg20=defaultContainer, 0, -11, 18, 12.5, 8
+egg21=defaultContainer, 0, -17.875, 13.25, 12, 9
+egg22=defaultContainer, 0, 15.5, 6.25, 17, -
+egg23=defaultContainer, 0, -13, 6.5, 12.5, +
+egg24=defaultContainer, 0, 17.75, -5.875, 10, *
+egg25=defaultContainer, 0, -1.75, -14, 9, 0
+egg26=defaultContainer, 0, 4.5, 18.5, 9, 1
+egg27=defaultContainer, 0, -8.5, -10.125, 8, 2
+egg28=defaultContainer, -14.375, 5.75, 0, 14.5, 3
+egg29=defaultContainer, -18.75, -5, 0, 12, 4
+egg3=defaultContainer, 0, -6.375, -18.375, 10, 4
+egg30=defaultContainer, -16.875, -11.75, 0, 13, 5
+egg31=defaultContainer, -13.25, -6.375, 0, 12, 6
+egg32=defaultContainer, -7.75, 28.25, 0, 12, 7
+egg33=defaultContainer, -12.875, 22, 0, 14.5, 8
+egg34=defaultContainer, -16.5, 15, 0, 10, 9
+egg35=defaultContainer, -18.5, 5.75, 0, 9.5, -
+egg36=defaultContainer, -8.875, 23.25, -12.375, 13.5, +
+egg37=defaultContainer, 22.25, -15.25, 0, 11, *
+egg38=defaultContainer, -2, 1.25, 33, 9, 0
+egg39=defaultContainer, 12.75, -13.125, 0, 10, 1
+egg4=defaultContainer, 0, 13.25, -16.75, 8.5, 5
+egg40=defaultContainer, -9.3852, -18.2616, 0, 10, 2
+egg41=defaultContainer, -5.375, -5.25, 32.75, 10, 13
+egg42=defaultContainer, -10.875, -12.375, 0, 11, 14
+egg43=defaultContainer, 7.75, -19, 0, 6.5, 5
+egg44=defaultContainer, 13.75, -17.875, 0, 9.5, 6
+egg45=defaultContainer, -13, -15.75, 0, 10, 7
+egg46=defaultContainer, -15.25, 15.5, 18.75, 19.5, 8
+egg47=defaultContainer, -17.75, 0, -7.875, 14.5, 9
+egg48=defaultContainer, -8.125, 17.75, -15.5, 11.5, -
+egg49=defaultContainer, -15, -8.5, -13.25, 18.5, +
+egg5=defaultContainer, 0, 3, -18.375, 11, 6
+egg50=defaultContainer, -11.375, 2.25, 27.5, 20, *
+egg51=defaultContainer, -9.5, 23, 15, 17, 0
+egg52=defaultContainer, -7.25, 16.25, 26.75, 11, 1
+egg53=defaultContainer, -5.625, -10, 30, 11, 2
+egg54=defaultContainer, -15.125, -4.25, 20.5, 13.5, 3
+egg55=defaultContainer, -8.5, -14.625, 22.25, 13.5, 4
+egg56=defaultContainer, -11.5, -9.625, 27.5, 15.5, 5
+egg57=defaultContainer, -18.25, -8.75, 9.5, 14, 6
+egg58=defaultContainer, -10.875, -0.75, -15.875, 13, 7
+egg59=defaultContainer, -14.875, -13.5, 17.5, 12, 8
+egg6=defaultContainer, 0, 28.75, 0, 12.5, 7
+egg60=defaultContainer, 22.75, 15.75, -8.5, 16, 9
+egg61=defaultContainer, 30.25, -4.5, 1, 15, -
+egg62=defaultContainer, 10.75, 9.5, -16.625, 21, +
+egg63=defaultContainer, 27.75, 6, -8.625, 16, *
+egg64=defaultContainer, 25.75, -10.375, -9, 18, 0
+egg65=defaultContainer, 22.25, 1.75, -12.875, 15.5, 1
+egg66=defaultContainer, 15.5, 21.5, 0, 19, 2
+egg67=defaultContainer, 11.5, 24, -11.375, 13, 3
+egg68=defaultContainer, 25.5, 17.25, 4.25, 12.5, 4
+egg69=defaultContainer, 30, 11, 0, 10, 5
+egg7=defaultContainer, 0, 29, 11.25, 9.5, 8
+egg70=defaultContainer, 17.5, -8, 26, 14, 6
+egg71=defaultContainer, 6.75, -13.25, 25, 14.5, 7
+egg72=defaultContainer, 23, -13.875, 11.5, 18, 8
+egg73=defaultContainer, 15.5, -16.125, 19.25, 17.5, 9
+egg74=defaultContainer, 20, 9, 12, 19.5, -
+egg75=defaultContainer, 17.5, 1.75, 0, 14.5, +
+egg76=defaultContainer, 12.75, 4.5, 27.25, 17, *
+egg77=defaultContainer, 11.5, 18.5, 20.25, 16.5, 0
+egg78=defaultContainer, 26.25, -5.5, 13.25, 17, 1
+egg79=defaultContainer, 9.25, -9.625, -16.75, 19, 2
+egg8=defaultContainer, 0, -7.5, -13.5, 8, 9
+egg80=defaultContainer, -6.89409, 8.25, -16.9197, 13.3206, 3
+egg81=defaultContainer, 12.75, -15.125, -14.875, 15.5, 4
+egg82=defaultContainer, 27.75, -11.375, 2.5, 12.5, 5
+egg83=defaultContainer, -8, -9.125, -17.375, 16.5, 6
+egg84=defaultContainer, -10, 8.25, -5.75, 30.5, 7
+egg85=defaultContainer, 9.75, -18.125, -11.375, 21, 8
+egg86=defaultContainer, 19.5, -9.625, -14.25, 13, 9
+egg87=defaultContainer, -15, -13.75, -8.5, 17, -
+egg88=defaultContainer, -13.375, -14.75, -13.875, 26.75, +
+egg89=defaultContainer, -9, -17.625, -8.25, 16.5, *
+egg9=defaultContainer, 0, -10.625, -16.625, 8, -
+egg90=defaultContainer, -8.5, -15.625, -13, 17, 0
+egg91=defaultContainer, -4, -10.125, -12, 15, 1
+egg92=defaultContainer, -11.875, -14.875, 9.5, 20, 2
+egg93=defaultContainer, -9, -3.25, 12.75, 18.5, 3
+egg94=defaultContainer, -17.25, 3.75, 10, 16.5, 4
+egg95=defaultContainer, 9.75, -17, 7, 16, 5
+
+[Camera]
+position_x=0
+position_y=0
+position_z=-100
+lookAt_x=0
+lookAt_y=0
+lookAt_z=0
+
+[Light]
+# format: name = diffuse r, diffuse g, diffuse b, specular_r, specular_g, specular_b, pos x, pos y, pos y, dir x, dir y, dir z, power, type, spotlightRangeDegreeX, spotlightRangeDegreeY
+# light type: spotlight, point, directional
+# caution: spotlight range use only when you select spotlight type
+defaultLight=0.5, 0.5, 0.5, 1, 1, 1, 1000, 1200, 500, 0, 0, 0, 0, spotlight, 40, 60
+
+[AmbientLight]
+r=0.5
+g=0.5
+b=0.5
+
+[Skybox]
+material=Examples/StormySkyBox
+range=5000
+
+[Value]
+EggNumericRangeFrom=0
+EggNumericRangeTo=14
+AnswerNumericRangeFrom=0
+AnswerNumericRangeTo=30
+# total * NumericRate = numeric quantity
+NumericRate=0.7
+AnswerQuantity=5
+LimitTime=60
+
+[Operator]
+sum=true
+subtract=true
+multiply=true
+mod=false
+factorial=false
+bracket=true
+square=false
+invert=false
+
+[Fog]
+mode=FOG_EXP
+density=0.0003
+linear_start=1
+linear_end=100
+fade_color_r=0.5
+fade_color_g=0.5
+fade_color_b=0.5

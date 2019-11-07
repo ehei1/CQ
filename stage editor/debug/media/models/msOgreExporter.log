@@ -1,0 +1,9 @@
+15:10:51: OGRE Milkshape Exporter Log
+15:10:51: ---------------------------
+15:10:51: Creating resource group General
+15:10:51: Creating resource group Internal
+15:10:51: Creating resource group Autodetect
+15:10:54: Registering ResourceManager for type Skeleton
+15:10:54: Registering ResourceManager for type Mesh
+15:10:57: Unregistering ResourceManager for type Mesh
+15:10:57: Unregistering ResourceManager for type Skeleton

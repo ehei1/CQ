@@ -1,0 +1,27 @@
+#calc king digit & operation material
+[Material]
+0=CalcKing/DigitZero
+1=CalcKing/DigitOne
+2=CalcKing/DigitTwo
+3=CalcKing/DigitThree
+4=CalcKing/DigitFour
+5=CalcKing/DigitFive
+6=CalcKing/DigitSix
+7=CalcKing/DigitSeven
+8=CalcKing/DigitEight
+9=CalcKing/DigitNine
+10=CalcKing/DigitTen
+11=CalcKing/DigitEleven
+12=CalcKing/DigitTwelve
+13=CalcKing/DigitThirteen
+14=CalcKing/DigitFourteen
++=CalcKing/OperatorPlus
+-=CalcKing/OperatorMinus
+*=CalcKing/OperatorMultiply
+%=CalcKing/OperatorMod
+!=CalcKing/OperatorFactorial
+(=CalcKing/OperatorBracketOpen
+)=CalcKing/OperatorBracketClose
+~=CalcKing/OperatorInvert
+^=CalcKing/OperatorSquare
+?=CalcKing/OperatorQuestion

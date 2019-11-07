@@ -1,0 +1,666 @@
+material defaultContainer
+{
+	technique
+	{
+		pass
+		{
+		        lighting on
+
+                        scene_blend alpha_blend
+		        depth_write off
+
+			ambient 0.560784 0.580392 0.905882 1
+			diffuse 0.219608 0.219608 0.819608 0.56
+			specular 0.541176 0.541176 0.541176 0.56 15
+		}
+
+	}
+
+}
+material CalcKing/DigitZero
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0
+			emissive 0 0 0
+
+
+			texture_unit
+			{
+				texture zero.png
+
+				tex_coord_set 0
+				env_map spherical
+			}
+		}
+	}
+}
+material CalcKing/DigitOne
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0
+			emissive 0 0 0
+
+
+			
+
+			texture_unit
+			{
+				texture one.png
+
+				tex_coord_set 0
+				env_map spherical
+			}
+		}
+	}
+}
+material CalcKing/DigitTwo
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0
+			emissive 0 0 0
+
+			
+			
+
+			texture_unit
+			{
+				texture two.png
+
+				tex_coord_set 0
+				env_map spherical
+			}
+		}
+	}
+}
+material CalcKing/DigitThree
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0
+			emissive 0 0 0
+
+			
+			
+
+			texture_unit
+			{
+				texture three.png
+
+				tex_coord_set 0
+				env_map spherical
+			}
+		}
+	}
+}
+material CalcKing/DigitFour
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0
+			emissive 0 0 0
+
+			
+			
+
+			texture_unit
+			{
+				texture four.png
+
+				tex_coord_set 0
+				env_map spherical
+			}
+		}
+	}
+}
+material CalcKing/DigitFive
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0
+			emissive 0 0 0
+
+			
+			
+
+			texture_unit
+			{
+				texture five.png
+
+				tex_coord_set 0
+				env_map spherical
+			}
+		}
+	}
+}
+material CalcKing/DigitSix
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0
+			emissive 0 0 0
+
+			
+			
+
+			texture_unit
+			{
+				texture six.png
+
+				tex_coord_set 0
+				env_map spherical
+			}
+		}
+	}
+}
+material CalcKing/DigitSeven
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0
+			emissive 0 0 0
+
+			
+			
+
+			texture_unit
+			{
+				texture seven.png
+
+				tex_coord_set 0
+				env_map spherical
+			}
+		}
+	}
+}
+material CalcKing/DigitEight
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0
+			emissive 0 0 0
+
+			
+			
+
+			texture_unit
+			{
+				texture eight.png
+
+				tex_coord_set 0
+				env_map spherical
+			}
+		}
+	}
+}
+material CalcKing/DigitNine
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0
+			emissive 0 0 0
+
+			
+			
+
+			texture_unit
+			{
+				texture nine.png
+
+				tex_coord_set 0
+				env_map spherical
+			}
+		}
+	}
+}
+material CalcKing/DigitTen
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0
+			emissive 0 0 0
+
+			
+			
+
+			texture_unit
+			{
+				texture ten.png
+
+				tex_coord_set 0
+				env_map spherical
+			}
+		}
+	}
+}
+material CalcKing/DigitEleven
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0
+			emissive 0 0 0
+
+			
+			
+
+			texture_unit
+			{
+				texture eleven.png
+
+				tex_coord_set 0
+				env_map spherical
+			}
+		}
+	}
+}
+material CalcKing/DigitTwelve
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0
+			emissive 0 0 0
+
+			
+			
+
+			texture_unit
+			{
+				texture twelve.png
+
+				tex_coord_set 0
+				env_map spherical
+			}
+		}
+	}
+}
+material CalcKing/DigitThirteen
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0
+			emissive 0 0 0
+
+			
+			
+
+			texture_unit
+			{
+				texture thirteen.png
+
+				tex_coord_set 0
+				env_map spherical
+			}
+		}
+	}
+}
+material CalcKing/DigitFourteen
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0
+			emissive 0 0 0
+
+			
+			
+
+			texture_unit
+			{
+				texture fourteen.png
+
+				tex_coord_set 0
+				env_map spherical
+			}
+		}
+	}
+}
+material CalcKing/OperatorPlus
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0
+			emissive 0 0 0
+
+			
+			
+
+			texture_unit
+			{
+				texture plus.png
+
+				tex_coord_set 0
+				env_map spherical
+			}
+		}
+	}
+}
+material CalcKing/OperatorMinus
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0
+			emissive 0 0 0
+
+			
+			
+
+			texture_unit
+			{
+				texture minus.png
+
+				tex_coord_set 0
+				env_map spherical
+			}
+		}
+	}
+}
+material CalcKing/OperatorMultiply
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0
+			emissive 0 0 0
+
+			
+			
+
+			texture_unit
+			{
+				texture multiply.png
+
+				tex_coord_set 0
+				env_map spherical
+			}
+		}
+	}
+}
+material CalcKing/OperatorMod
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0
+			emissive 0 0 0
+
+			
+			
+
+			texture_unit
+			{
+				texture mod.png
+
+				tex_coord_set 0
+				env_map spherical
+			}
+		}
+	}
+}
+material CalcKing/OperatorFactorial
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0
+			emissive 0 0 0
+
+			
+			
+
+			texture_unit
+			{
+				texture factorial.png
+
+				tex_coord_set 0
+				env_map spherical
+			}
+		}
+	}
+}
+material CalcKing/OperatorBracketOpen
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0
+			emissive 0 0 0
+
+			
+			
+
+			texture_unit
+			{
+				texture bracketOpen.png
+
+				tex_coord_set 0
+				env_map spherical
+			}
+		}
+	}
+}
+material CalcKing/OperatorBracketClose
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0
+			emissive 0 0 0
+
+			
+			
+
+			texture_unit
+			{
+				texture bracketClose.png
+
+				tex_coord_set 0
+				env_map spherical
+			}
+		}
+	}
+}
+material CalcKing/OperatorInvert
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0
+			emissive 0 0 0
+
+			
+			
+
+			texture_unit
+			{
+				texture invert.png
+
+				tex_coord_set 0
+				env_map spherical
+			}
+		}
+	}
+}
+material CalcKing/OperatorSquare
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0
+			emissive 0 0 0
+
+			
+			
+
+			texture_unit
+			{
+				texture square.png
+
+				tex_coord_set 0
+				env_map spherical
+			}
+		}
+	}
+}
+material CalcKing/OperatorQuestion
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0
+			emissive 0 0 0
+
+
+
+
+			texture_unit
+			{
+				texture question.png
+
+				tex_coord_set 0
+				env_map spherical
+			}
+		}
+	}
+}
